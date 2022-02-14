@@ -5,10 +5,11 @@ import Message from './components/Message';
 import Welcome from './components/Welcome';
 import StyleSheet from './components/StyleSheet';
 import Inline from './components/Inline';
+import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-       <Inline/>
+      <Form/>
     </div>
   );
 }
